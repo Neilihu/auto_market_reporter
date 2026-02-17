@@ -41,41 +41,41 @@ market_monitor/
 
     ├── fetch_prices.py
 
-│   └── fetch_news.py
+    └── fetch_news.py
 
 
 ├── analysis/            # AI analysis and caching
 
-│   └── openai_summary.py
+    └── openai_summary.py
 
 
 ├── database/
 
-│   ├── db.py
+    ├── db.py
 
-│   └── schema.sql
+    └── schema.sql
 
 
 ├── reports/
 
-│   └── generate_report.py
+    └── generate_report.py
 
 
 ├── tools/
 
-│   └── export_report_pdf.py
+    └── export_report_pdf.py
 
 
 ├── repo/
 
-│   ├── md/              # Saved markdown reports
+    ├── md/              # Saved markdown reports
 
-│   └── pdf/             # Final PDF reports
+    └── pdf/             # Final PDF reports
 
 
 ├── config/
 
-│   └── tickers.yaml
+    └── tickers.yaml
 
 
 ├── main.py              # Main pipeline entry
