@@ -39,7 +39,7 @@ market_monitor/
 
 ├── collector/           # Data collection scripts
 
-│   ├── fetch_prices.py
+    ├── fetch_prices.py
 
 │   └── fetch_news.py
 
