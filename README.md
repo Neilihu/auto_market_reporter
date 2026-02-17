@@ -41,6 +41,7 @@ market_monitor/
 │   ├── fetch_prices.py
 │   └── fetch_news.py
 │
+
 ├── analysis/            # AI analysis and caching
 │   └── openai_summary.py
 │
