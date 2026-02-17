@@ -169,9 +169,13 @@ pip install -r requirements.txt
 Create `.env`:
 
 ALPHAVANTAGE_API_KEY=your-key
+
 SQLITE_PATH=market.db
+
 FINNHUB_API_KEY=your-key
+
 OPENAI_API_KEY=your-key
+
 OPENAI_MODEL=gpt-5-mini(your-model)
 
 ---
