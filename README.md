@@ -38,39 +38,52 @@ Daily report includes:
 market_monitor/
 
 ├── collector/           # Data collection scripts
+
 │   ├── fetch_prices.py
+
 │   └── fetch_news.py
 
 
 ├── analysis/            # AI analysis and caching
+
 │   └── openai_summary.py
 
 
 ├── database/
+
 │   ├── db.py
+
 │   └── schema.sql
 
 
 ├── reports/
+
 │   └── generate_report.py
 
 
 ├── tools/
+
 │   └── export_report_pdf.py
 
 
 ├── repo/
+
 │   ├── md/              # Saved markdown reports
+
 │   └── pdf/             # Final PDF reports
 
 
 ├── config/
+
 │   └── tickers.yaml
 
 
 ├── main.py              # Main pipeline entry
+
 ├── requirements.txt
+
 ├── .env
+
 └── README.md
 
 ---
